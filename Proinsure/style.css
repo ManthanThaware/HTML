@@ -1,0 +1,71 @@
+ /*<title>Proinsure - Insurance landing page | Learn flexbox, position property, and
+        web typography</title>*/
+body{
+    background-color:white;
+    line-height: 1.5;
+    margin: 0px;
+    font-size: 100%;
+}
+.flex-container{
+    display: flex;
+    position: fixed;
+    background-color:white;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    top: 0px;
+}
+.flex-container > div {
+margin: 10px;
+padding: 20px;
+font-size: 30px;
+}
+.brand{
+color: #2d2640;
+font-size: 40px;
+font-family: "DM Serif Display", serif;
+}
+.btn{
+padding: 12px 18px;
+border: 1px solid grey;
+border-radius: 3px;
+word-spacing: 2px;
+}
+.btn:hover{
+background-color:#2d2640;
+color: white;
+}
+.btn2{
+padding: 12px 18px;
+border: 1px solid white;
+color: white;
+border-radius: 3px;
+word-spacing: 2px;
+}
+.btn2:hover{
+color:#2d2640;
+background-color: white;}
+a{
+text-decoration: none;
+color: grey;}
+.para{
+    margin-top: 100px;
+    padding: 90px;
+    color:white;
+    background-color: #2d2640;
+}
+.para>p{
+    color:grey;
+}
+.line {
+width: 200px;
+height: 2px;
+background-color: #bcb8c4;
+}
+.img1{
+width:450px;
+height: 550px;
+position: absolute;
+right: 190px;
+bottom: 120px;
+}
