@@ -17,10 +17,20 @@ body p{
     padding: 25px;
 }
 .brand{
-    margin-left: 120px;
+    margin-left: 90px;
     color: orangered;
     font-family: "Pacifico";
-    font-size: 20px;
+    font-size: 23px;
+    display: flex;
+}
+.brand h2{
+        margin-left: 10px
+}
+.brand img{
+    margin-top: 15px;
+    margin-left: 10px;
+    height: 90px;
+    width: 90px;
 }
 .nav{
     box-sizing: border-box;
