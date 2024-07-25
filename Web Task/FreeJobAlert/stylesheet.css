@@ -1,0 +1,184 @@
+body{
+    margin: auto;
+    width: 87%;
+    font-size: 20px;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+a{
+text-decoration: none;
+color: black;
+}
+.container1 {
+    display: flex ;
+    border-bottom: 2px solid grey;
+}
+
+.brdimg img{
+width: 120px;
+height: 150px;
+}
+.nav1{
+background-color: #222222;
+color: white;
+width: 100%;
+text-align: left;
+}
+
+.container2{
+width: 100%;
+padding: 10px;
+margin: 0;
+}
+
+.opt1{
+width: 100%;
+
+justify-content: space-between;
+padding: 10px
+}
+.opt1 a{
+border-radius: 5px;
+padding: 5px;
+background-color:#4279b8;
+color: white;
+font-size: 25px;
+}
+.container2 p{
+color: red;
+text-align: center;
+font-size: 25px;}
+.container3{
+    display: inline-block;
+    padding: 10px;
+    height: 1000px;
+}
+.container3 p{
+    padding: 10px;
+    background-color:#4279b8;
+    color: white;
+    margin-top:0;
+}
+.vnav{
+    width: 330px;
+    padding: 5px;
+    font-size: 24px;
+    color: #4279b8;
+}
+.sbox{
+    display: flex;
+    border: 2px solid red;
+    padding: 5px;
+    justify-content: space-around;
+}
+.Gsbox input{
+    width: 780px;
+    height: 40px;
+}
+.Gsbox a{
+    color: black;
+    background-color:#4279b8;
+    border-radius: 5px;
+    padding: 5px;
+    height: 30px;
+    width: 70px;
+    text-align: center;
+}
+.Gsbox p{
+    display: inline;
+    color: #4279b8;
+    background-color: yellow;
+    line-height: 70px;
+}
+.container4{
+    display: flex;
+    float: right;
+}
+.container4 a{
+    margin: 3px;
+    color: white;
+}
+.container5{
+    width: 440px;
+    margin-top: -20px;
+    margin-left: 10px;
+    line-height: 20px;
+
+}
+.container5 p{
+    background-color:#4279b8;
+    color: white;
+    padding: 5px;
+}
+.container5 a{
+    font-size: 30px;
+    color: brown;
+}
+.container6{
+    width: 78%;
+    height: 430px;
+    border: 2px solid black;
+    margin-left: 400px;
+    float: right;
+    margin-top:-900px;
+
+}
+.container6 h1{
+    background-color:#4279b8;
+    color: white;
+    text-align: center;
+    padding:10px;
+    margin-top: 0;
+}
+.container3 ul{
+    list-style-image: url('Img/BlockContentBullets.png');
+}
+.opt2{
+    display: flex;
+    text-align: justify;
+    column-gap: 40px;
+    line-height: 35px;
+    
+}
+.opt2 a{
+    color: blue;
+
+
+}
+.container7{
+    color: red;
+    text-align: center;
+    margin-right:25%;
+    margin-left:5%;
+    float: right;
+    margin-top:-490px;
+    padding: 10px;
+}
+.container8{
+    float: right;
+    margin-top:-390px;
+    width: 78%;
+    padding: 10px;
+}
+.cont8{
+    display: flex;
+    column-gap: 10px;
+    margin: 10px;
+}
+.cont8 div{
+    color: white;
+    width: 33.33%;
+    height: 110px;
+}
+.btn{
+    background-color:#b2670e;
+    text-align: center;
+    border-radius:25px;
+    width: 120px;
+    padding: 10px;
+    margin:auto;
+
+}
+.btn a{
+    color: white;
+    font-size: 24px;
+}
